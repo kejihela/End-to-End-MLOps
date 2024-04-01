@@ -12,6 +12,7 @@ list_of_files = [
    "src/componets/data_ingestion.py",
    "src/componets/data_transformation.py",
    "src/componets/model_evaluation.py",
+   "src/componets/data_ingestion.py",
    "src/componets/model_trainer.py",
    "src/exception/__init__.py",
    "src/exception/exception.py",
