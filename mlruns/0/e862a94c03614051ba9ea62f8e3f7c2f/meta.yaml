@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hp/Documents/End-to-End-MLOps/mlruns/0/e862a94c03614051ba9ea62f8e3f7c2f/artifacts
+end_time: 1711985955064
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e862a94c03614051ba9ea62f8e3f7c2f
+run_name: gaudy-vole-760
+run_uuid: e862a94c03614051ba9ea62f8e3f7c2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711985943991
+status: 3
+tags: []
+user_id: hp

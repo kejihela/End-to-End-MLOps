@@ -25,7 +25,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("data ingestion started")
         try:
-            data=pd.read_csv("C:\Users\hp\Documents\End-to-End-MLOps\experiments\train.csv")
+            data=pd.read_csv("https://raw.githubusercontent.com/kejihela/End-to-End-MLOps/master/experiments/train.csv")
             logging.info(" reading a df")
 
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
@@ -52,7 +52,7 @@ class DataIngestion:
 
 
         except Exception as e:
-            logging.info()
+            logging.info("Error")
             raise customexception(e,sys)
 
 

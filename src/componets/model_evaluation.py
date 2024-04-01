@@ -7,7 +7,7 @@ import pickle
 from src.utils.utils import load_object
 from urllib.parse import urlparse
 from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
-from src.logger.logging import logging
+from src.logging.logging import logging
 from src.exception. exception import customexception
 
 class ModelEvaluation:
