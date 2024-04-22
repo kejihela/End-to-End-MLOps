@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hp/Documents/End-to-End-MLOps/mlruns/0/f01e5218b37a4572a10ae6e664c15d91/artifacts
+end_time: 1712295707776
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f01e5218b37a4572a10ae6e664c15d91
+run_name: funny-snail-581
+run_uuid: f01e5218b37a4572a10ae6e664c15d91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712295700495
+status: 3
+tags: []
+user_id: hp
