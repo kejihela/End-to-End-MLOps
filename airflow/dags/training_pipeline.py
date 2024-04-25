@@ -42,14 +42,12 @@ with DAG(
         training_pipeline.start_model_training(train_arr,test_arr)
     
     ## you have to config azure blob
-    def push_data_to_azureblob(**kwargs):
+    def push_data_to_s3(**kwargs):
         import os
         bucket_name="reposatiory_name"
         artifact_folder="/app/artifacts"
         #you can save it ti the azure blob
-        #os.system(f"aws s3 sync {artifact_folder} s3:/{bucket_name}/artifact")
-        
-        
+        #os.system(f"aws s3 sync {artifact_folder} s3:/{bucket_name}/artifact")    
         
     data_ingestion_task = PythonOperator(
         task_id="data_ingestion",
